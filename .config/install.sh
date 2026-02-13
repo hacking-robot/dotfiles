@@ -14,7 +14,7 @@ fi
 
 # --- Brew packages ---
 FORMULAE=(neovim tmux spaceship zimfw nvm)
-CASKS=(ghostty aerospace)
+CASKS=(ghostty aerospace font-hack-nerd-font)
 
 echo "Installing brew formulae..."
 for pkg in "${FORMULAE[@]}"; do

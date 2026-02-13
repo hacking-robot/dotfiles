@@ -33,6 +33,23 @@ fi
 source ${ZIM_HOME}/init.zsh
 source /opt/homebrew/opt/spaceship/spaceship.zsh
 
+# Spaceship prompt config
+SPACESHIP_PROMPT_ORDER=(
+  dir
+  git
+  node
+  bun
+  docker
+  venv
+  exec_time
+  line_sep
+  char
+)
+SPACESHIP_CHAR_SYMBOL="❯ "
+SPACESHIP_DIR_TRUNC=3
+SPACESHIP_GIT_STATUS_SHOW=true
+SPACESHIP_EXEC_TIME_ELAPSED=3
+
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
