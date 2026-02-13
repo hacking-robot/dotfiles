@@ -1,0 +1,15 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secret*
+*token*
+
+# SSH keys
+.ssh/
+
+# Auth files
+.npmrc
+.netrc
