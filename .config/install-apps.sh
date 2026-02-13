@@ -19,6 +19,7 @@ CASKS=(
   ollama
   proton-mail
   proton-pass
+  steam
   superwhisper
   tradingview
   zed
