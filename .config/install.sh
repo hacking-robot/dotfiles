@@ -14,7 +14,7 @@ fi
 
 # --- Brew packages ---
 FORMULAE=(neovim tmux spaceship zimfw nvm)
-CASKS=(ghostty)
+CASKS=(ghostty aerospace)
 
 echo "Installing brew formulae..."
 for pkg in "${FORMULAE[@]}"; do
